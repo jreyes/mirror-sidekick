@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent">
+
+    <com.github.jorgecastillo.FillableLoader
+        android:id="@+id/loader"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        app:fl_originalWidth="@integer/original_svg_width"
+        app:fl_originalHeight="@integer/original_svg_height"
+        app:fl_strokeWidth="6dp"
+        app:fl_strokeColor="@color/colorBackground"
+        app:fl_fillColor="@color/colorWhite"
+        app:fl_strokeDrawingDuration="@integer/stroke_drawing_duration"
+        app:fl_fillDuration="@integer/fill_duration"
+        app:fl_clippingTransform="waves"/>
+
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="null_size">0dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="status_bar_height">24dp</dimen>
+    <dimen name="status_toolbar_height">80dp</dimen>
+    <dimen name="small_text_size">14sp</dimen>
+    <dimen name="medium_text_size">16sp</dimen>
+    <dimen name="large_text_size">18sp</dimen>
+    <dimen name="scan_circle_size">150dp</dimen>
+    <dimen name="start_button_size">80dp</dimen>
+    <dimen name="stop_button_size">50dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="padding_end">12dp</dimen>
+    <dimen name="text_view_padding_bottom">8dp</dimen>
+    <dimen name="elevation_height">8dp</dimen>
+    <dimen name="extra_small_text_size">12.5sp</dimen>
+
+</resources>

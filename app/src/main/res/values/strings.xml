@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mirror Sidekick</string>
+
+    <!-- Menu item strings -->
+    <string name="start_transmitting">Start transmitting</string>
+    <string name="stop_transmitting">Stop transmitting</string>
+    <string name="transmitter_on">Transmitter ON</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+
+    <!-- Content descriptions -->
+    <string name="circle_button_content_desc">Circle button</string>
+    <string name="ring_pulse_desc">Pulse</string>
+    <string name="stop_button_content_desc">Stop button</string>
+    <string name="stop_circle_desc">Stop circle</string>
+
+    <!-- Bluetooth -->
+    <string name="bluetooth_not_enabled">Bluetooth not enabled</string>
+    <string name="please_enable_bluetooth">Please enable bluetooth in settings and restart the app to work properly.</string>
+
+    <!-- Scanning settings -->
+    <string name="transmitting_not_supported">Transmitting not supported</string>
+    <string name="transmitting_not_supported_message">Transmitting as a beacon is not supported on your device.</string>
+
+    <!-- Artik Cloud -->
+    <string name="artik_client_id">YOUR_APP_ID</string>
+    <string name="artik_device_id">YOUR_DEVICE_ID</string>
+    <string name="artik_beacon_id">YOUR_BEACON_ID</string>
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:id="@+id/scan_circle"
+        android:layout_width="@dimen/scan_circle_size"
+        android:layout_height="@dimen/scan_circle_size"
+        android:layout_gravity="center"
+        android:contentDescription="@string/circle_button_content_desc"
+        android:src="@drawable/ic_button_circle"/>
+
+    <ImageView
+        android:id="@+id/pulse_ring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/ring_pulse_desc"
+        android:src="@drawable/ic_pulse_ring"/>
+
+    <ImageButton
+        android:id="@+id/start_scan_button"
+        android:layout_width="@dimen/start_button_size"
+        android:layout_height="@dimen/start_button_size"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_button_circle"
+        android:contentDescription="@string/circle_button_content_desc"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_button_transmit"/>
+
+    <ImageButton
+        android:id="@+id/stop_scan_button"
+        android:layout_width="@dimen/stop_button_size"
+        android:layout_height="@dimen/stop_button_size"
+        android:layout_gravity="center"
+        android:background="@color/colorWhite"
+        android:contentDescription="@string/stop_button_content_desc"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_button_stop"
+        android:visibility="invisible"/>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/status_bar_height"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/app_name"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/large_text_size"/>
+
+        </FrameLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+</FrameLayout>
