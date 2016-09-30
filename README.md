@@ -12,4 +12,4 @@ for wake up and sleep functionality.
 
 Also works to receive sharing intents from the Mirror application.
 
-![](https://raw.github.com/jreyes/mirror-sidekick/master/art/collage.jpg)
+![](https://raw.github.com/jreyes/mirror-sidekick/master/art/collage.jpg?raw=true)
